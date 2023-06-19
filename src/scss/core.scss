@@ -1,0 +1,36 @@
+/**
+*
+*  core styling
+*
+*/
+
+
+
+body {
+    --font-color: #fff;
+    --font-color-alt: yellow;
+
+    --col-component-bg: rgba(0,0,0,0.3);
+}
+
+.App-background {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var( --font-color );
+    width: 100vw;
+    height: 100vh;
+    background: rgb(38,38,38);
+    background: linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(88,20,20,1) 19%, rgba(80,80,80,1) 100%);
+
+    padding: 60px 5%;
+}
+
+.component-bg {
+    display: block;
+    background-color: var( --col-component-bg );
+    border-radius: 6px;
+    padding: 20px;
+    width: fit-content;
+}
